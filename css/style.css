@@ -237,6 +237,7 @@ ul{
     button:active {
         transform: scale(0.9);
     }
+/* Ends Prodcutos index*/ 
 /* Starts Grid Promos*/
 #ofer-grid{
     display: grid;

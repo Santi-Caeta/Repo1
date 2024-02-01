@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+$mainFont: 'Open Sans', sans-serif;
+$secondFont: Italic, sans-serif;
+$mainColor: rgb(48, 189, 142);
+$secondaryColor:rgb(70, 70, 200);
+$white: rgb(215, 230, 231);
+$black: rgb(6,1,1);
+$bgColor: #180427;
+
+// weights
+$light:300;
+$regular:400;
+$bold:600;
+// sizies
+$sm:0.8em;
+$md:1em;
+$lg:1.6em;
+$xl:2em;
+$xxl:3em;
+
+*{
+    font-family: $mainFont;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+$fuentes:(
+    'one': rgb(11, 137, 76),
+    'two': rgb(184, 231, 241),
+    'three': rgb(0, 255, 255),
+    'four': hsl(34, 78%, 91%),
+    'five': rgb(194, 244, 212),
+    'six': rgb(133, 255, 255),
+);
+
+h1,
+h2
+h3,
+h4{
+    font-family: $mainFont;
+    font-weight: $bold;
+}
+
+p{
+    color: rgb(235, 124, 96);
+    line-height: $lg;
+    font-size: $md;
+    text-align: center;
+    text-align: justify;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.8em;
+    color: $mainColor;
+}
+h2{
+    font-size: 2.4em;
+    text-align: center;
+    color: $mainColor;
+}
+h3{
+    font-size: 2em;
+    text-align: center;
+    color: $mainColor;
+}
+h4{
+    font-size: 2em;
+    color: $mainColor;
+}
