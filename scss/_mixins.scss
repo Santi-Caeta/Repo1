@@ -4,3 +4,28 @@
     border-radius: $radius;
     border-width: $width;
 }
+
+$fuentes:(
+    'one': rgb(11, 137, 76),
+    'two': rgb(184, 231, 241),
+    'three': rgb(0, 255, 255),
+    'four': hsl(34, 78%, 91%),
+    'five': rgb(194, 244, 212),
+    'six': rgb(133, 255, 255),
+);
+
+@mixin flex($dire,$justy,$align,$wrap){
+    display: flex;
+    flex-direction: $dire;
+    justify-content: $justy;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+.box-home{
+    @include flex(row,center,flex-end,nowrap);
+    background-color: rgb(86, 240, 212);
+}
+.box-col{
+    @include flex(column,flex-start,center,wrap);
+    background-color: rgb(86, 240, 212);
+}
