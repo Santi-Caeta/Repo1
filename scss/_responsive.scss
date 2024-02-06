@@ -1,0 +1,12 @@
+@media (width <= 992px){
+    /* index */
+.productos-destacados figure.productos{
+    width: 44%;
+    }
+}
+
+@media (width < 768px){
+    .productos-destacados figure.productos{
+        width: 100%;
+        }
+    }

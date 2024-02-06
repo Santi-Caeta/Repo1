@@ -1,0 +1,15 @@
+.carou{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    .c-item{
+        height: 280px;
+        width: 280px;
+        img{
+            height: 80%;
+            width: 80%;
+        }
+    }
+}

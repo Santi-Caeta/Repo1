@@ -10,9 +10,9 @@
         <!-- Style BS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <!-- My style-->
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
     </head>
-    <body class="bg-pattern">
+    <body class="bg-pattern container-c">
         <!--start nav-->
           <nav class="navbar navbar-expand-lg sticky-top menu">
             <section class="container-fluid">
@@ -43,31 +43,125 @@
           </nav>
           <!-- ends nav -->
         <!-- ends nav -->
-        <main>
-            <h1>Contactanos</h1>
+        <main class="container-fluid">
+            <h1>Siempre a tu disposicion</h1>
             <section class="row">
                 <div class="col-sm-12 col-lg-6">
-                <!-- completar con formulario de after class-->
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Direccion</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="Calle falsa 123">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">Referencias del Inmueble</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Departamento, piso, otros">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">Ciudad</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">Provincia</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Elige una opcion</option>
+                            <option>Buenos Aires</option>
+                            <option>Catamarca</option>
+                            <option>Chaco</option>
+                            <option>Chubut</option>
+                            <option>Córdoba</option>
+                            <option>Corrientes</option>
+                            <option>Entre Ríos</option>
+                            <option>Formosa</option>
+                            <option>Jujuy</option>
+                            <option>La Pampa</option>
+                            <option>La Rioja</option>
+                            <option>Mendoza</option>
+                            <option>Misiones</option>
+                            <option>Neuquén</option>
+                            <option>Río Negro</option>
+                            <option>San Juan</option>
+                            <option>San Luis</option>
+                            <option>Santa Cruz</option>
+                            <option>Santa Fe</option>
+                            <option>Santiago del Estero</option>
+                            <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                            <option>Tucumán</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Descripcion</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Confirmar
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105092.97026410745!2d-58.63811524531185!3d-34.600233739411614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5ebf9363d9f%3A0xa431bedea4c4a7d1!2sPlaza%20Mafalda!5e0!3m2!1ses!2sar!4v1702423329682!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Nuestro local"></iframe>
+                        </div>
+                      </form>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105092.97026410745!2d-58.63811524531185!3d-34.600233739411614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5ebf9363d9f%3A0xa431bedea4c4a7d1!2sPlaza%20Mafalda!5e0!3m2!1ses!2sar!4v1702423329682!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Nuestro local"></iframe>
             </section>       
         </main>
-            <footer>
-                <div>
-                <a href="https://facebook.com" target="_blank">
-                <img src="../img/gratis-png-facebook-thumbnail.png">
-                </a>
-                </div>
-                <div>
-                    <a href="https://instagram.com" target="_blank">
-                    <img src="../img/947fd-logo-instagram-bonito-png.png.webp">
-                    </a>
-                </div>
-                    <ul class="text-bold">Politica de privacidad</ul>
-                    <ul class="text-bold">Politica de devolucion</ul>
-                    <ul class="text-bold">Politica de cambios</ul>
-            </footer>
-            <!--JS BS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <section>
+        <footer>
+            <figure class="footer-col">
+              <h4>Tienda Hola Mundo</h4>
+                <ul>
+                  <li><a href="#">Nosotros</a></li>
+                  <li><a href="#">Nuestros Servicios</a></li>
+                  <li><a href="#">Registrate</a></li>
+                  <li><a href="#">Politica de Privacidad</a></li>
+                </ul>
+            </figure>
+            <figure class="footer-col">
+                    <h4>Ayuda</h4>
+                    <ul>
+                      <li><a href="#">Preguntas Frecuentes</a></li>
+                      <li><a href="#">Envios</a></li>
+                      <li><a href="#">Compras</a></li>
+                      <li><a href="#">Consultas en Linea</a></li>
+                      <li><a href="#">Contacto</a></li>
+                    </ul>
+                </figure>
+                <figure class="footer-col">
+                    <h4>Fresh</h4>
+                    <ul>
+                      <li><a href="#">Lo Mas Vendido</a></li>
+                      <li><a href="#">Sale</a></li>
+                      <li><a href="#">Nueva Temporada</a></li>
+                      <li><a href="#">Tablas</a></li>
+                    </ul>
+                </figure>
+                <figure class="footer-col">
+                <h4>Seguinos</h4>
+                    <ul>
+                      <li><a href="https://facebook.com" target="_blank">
+                        <img src="../img/gratis-png-facebook-thumbnail.png" alt="seguinos en facebook"></a></li>
+                      <li><a href="https://instagram.com" target="_blank">
+                        <img src="../img/947fd-logo-instagram-bonito-png.png.webp" alt="seguinos en instagram"></li>
+                    </ul>
+                </figure>
+        </footer>
+    <!-- Fesco -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/fresco/dist/js/fresco.min.js"></script>
+    <!--JS BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+$mainFont: 'Open Sans', sans-serif;
+$secondFont: Italic, sans-serif;
+$mainColor: rgb(48, 189, 142);
+$secondaryColor:rgb(70, 70, 200);
+$white: rgb(215, 230, 231);
+$black: rgb(6,1,1);
+$bgColor: #180427;
+
+// weights
+$light:300;
+$regular:400;
+$bold:600;
+// sizies
+$sm:0.8em;
+$md:1em;
+$lg:1.6em;
+$xl:2em;
+$xxl:3em;
+
+$width:100vw;
+$height:100vh;
+
+*{
+    font-family: $mainFont;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1,
+h2
+h3,
+h4{
+    font-family: $mainFont;
+    font-weight: $bold;
+}
+
+p{
+    color: $black;
+    line-height: $lg;
+    font-size: $md;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1.8em;
+    color: $mainColor;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 2.4em;
+    text-align: center;
+    color: $mainColor;
+}
+h3{
+    font-size: 2em;
+    text-align: center;
+    color: $mainColor;
+}
+h4{
+    font-size: 2em;
+    color: $mainColor;
+}

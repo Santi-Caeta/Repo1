@@ -6,67 +6,142 @@
         <meta name="robots" content="index, follow">
         <meta name="them color" content="#09f">
         <title>Quienes somos</title>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <!--Style Fresco-->
+        <link rel="stylesheet" type="text/css" href="../css/fresco.css">
         <!-- Style BS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <!-- My style-->
-        <link rel="stylesheet" href="./css/css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
     </head>
     <body>
         <!--start nav-->
-        <nav class="menu">
-            <a href="../index.html">
-                <img src="../img/channels4_profile.jpg" alt="Logo de Tienda Hola Mundo">
-                </a>
-            <ul>
-                <li>
-                    <a href="../pages/coleccion_nueva.html"> Nueva Coleccion
-                    </a>
+        <nav class="navbar navbar-expand-lg sticky-top menu">
+            <section class="container-fluid">
+                <a href="../index.html">
+                <img src="../img/MH-HM-Logo-01.webp" alt="Logo de Tienda Hola Mundo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Img b. ham -->
+            <img src="../img/png--button-menu-options-blue-angle-rectangle-thumbnail.png">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li><a href="../pages/coleccion_nueva.html"> Nueva Coleccion</a>
                 </li>
-                <li>
-                    <a href="../pages/promos.html"> Promos
-                </a>
-                    </li>
-                <li>
-                    <a href="../pages/nosotros.html"> Nosotros
-                    </a>
+                <li><a href="../pages/promos.html"> Promos</a>
                 </li>
-                <li>
-                    <a href="../pages/contacto.html"> Contacto
-                    </a>
+                <li><a href="../pages/nosotros.html"> Nosotros</a>
                 </li>
-            </ul>
-        </nav>
+                <li><a href="../pages/contacto.html"> Contactos</a>
+                </li>
+              </ul>
+              <!-- Starts Formualario -->
+              <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <!-- Ends Formualario -->
+            </section>
+          </nav>
         <!-- ends nav -->
         <main>
-            <h1>Quienes somos</h1>
-                <section>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi veniam ex non, deserunt impedit eius quibusdam aspernatur labore necessitatibus aliquid soluta, eveniet accusamus? Porro doloremque error voluptatum, eligendi officiis atque!</p>
-                    <header hidden>barra con animacion y nombre de la tienda</header>
-        
+            <h1 class="title-ns">Quienes somos</h1>
+                <section class="container-ns">
+                  <figure class="card-ns mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../img/qs1.jpg" class="img-fluid rounded-start" alt="Casa donde se origino la marca en 1960">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h2 class="card-title">Origen de la Marca</h2>
+                          <p class="card-text">Los hermanos Pablo y Jorge Dorrego,junto con sus socios, en el año 1967 abren sus puertas en la calle El Cuy nro. 74 E. en la Boca, Buenos Aires, de la compañia que era la única de fabricar zapatos en las mismas instalaciones y venderlos directamente al público.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+
+                  <figure class="card-ns mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../img/qs2.jpg" class="img-fluid rounded-start" alt="Casa donde se origino la marca en 1960">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h2 class="card-title">Nuestro Producto Estrella</h2>
+                          <p class="card-text">Diez años mas tarde debutan con el ahora famoso modelo “Old S.K.” un zapato de skate que incorpora paneles de cuero para una mayor durabilidad. Lo que comenzó como un dibujo al azar de que fue originalmente denominado como "stripe" y se ha convertido en el distintivo inconfundible de la marca.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+
+                  <figure class="card-ns mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../img/qs3.jpg" class="img-fluid rounded-start" alt="Productos en la actulidad">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h2 class="card-title">Lideres en el Mercado</h2>
+                          <p class="card-text">En el presente la Marca no solo se encarga de la produccion de zapatos sino de todo tipo de indumentaria, y accesorios para deportes extremos colocandose como una de las lideres del mercado regional.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
                 </section> 
             <aside>
                     <ul>Consultas en linea</ul>
                     <ul>Nuestros Locales</ul>
                     <ul>Redes</ul>
             </aside>
-        </main>
-            <footer>
-                    <div>
-                        <a href="https://facebook.com" target="_blank">
-                        <img src="../img/gratis-png-facebook-thumbnail.png">
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://instagram.com" target="_blank">
-                        <img src="../img/947fd-logo-instagram-bonito-png.png.webp">
-                        </a>
-                    </div>
-                    <ul class="text-bold">Politica de privacidad</ul>
-                    <ul class="text-bold">Politica de devolucion</ul>
-                    <ul class="text-bold">Politica de cambios</ul>
-            </footer>
+            </main>
+                <section>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi veniam ex non, deserunt impedit eius quibusdam aspernatur labore necessitatibus aliquid soluta, eveniet accusamus? Porro doloremque error voluptatum, eligendi officiis atque!</p>
+                <header hidden>barra con animacion y nombre de la tienda</header>
+                </section>
+                <footer>
+                    <figure class="footer-col">
+                      <h4>Tienda Hola Mundo</h4>
+                        <ul>
+                          <li><a href="#">Nosotros</a></li>
+                          <li><a href="#">Nuestros Servicios</a></li>
+                          <li><a href="#">Registrate</a></li>
+                          <li><a href="#">Politica de Privacidad</a></li>
+                        </ul>
+                    </figure>
+                    <figure class="footer-col">
+                            <h4>Ayuda</h4>
+                            <ul>
+                              <li><a href="#">Preguntas Frecuentes</a></li>
+                              <li><a href="#">Envios</a></li>
+                              <li><a href="#">Compras</a></li>
+                              <li><a href="#">Consultas en Linea</a></li>
+                              <li><a href="#">Contacto</a></li>
+                            </ul>
+                        </figure>
+                        <figure class="footer-col">
+                            <h4>Fresh</h4>
+                            <ul>
+                              <li><a href="#">Lo Mas Vendido</a></li>
+                              <li><a href="#">Sale</a></li>
+                              <li><a href="#">Nueva Temporada</a></li>
+                              <li><a href="#">Tablas</a></li>
+                            </ul>
+                        </figure>
+                        <figure class="footer-col">
+                        <h4>Seguinos</h4>
+                            <ul>
+                              <li><a href="https://facebook.com" target="_blank">
+                                <img src="../img/gratis-png-facebook-thumbnail.png" alt="seguinos en facebook"></a></li>
+                              <li><a href="https://instagram.com" target="_blank">
+                                <img src="../img/947fd-logo-instagram-bonito-png.png.webp" alt="seguinos en instagram"></li>
+                            </ul>
+                        </figure>    
+                </footer>
+            <!-- Fesco -->
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script type="text/javascript" src="/fresco/dist/js/fresco.min.js"></script>
             <!--JS BS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>

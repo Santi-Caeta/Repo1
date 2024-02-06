@@ -6,76 +6,186 @@
         <meta name="robots" content="index, follow">
         <meta name="them color" content="#09f">
         <title>Nueva Coleccion</title>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <!-- Style BS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-         <!-- My style-->
-        <link rel="stylesheet" href="./css/css/style.css">
+        <!-- My style-->
+        <link rel="stylesheet" href="../css/main.css">
     </head>
     <body>
         <!--start nav-->
-        <nav class="menu">
-            <a href="../index.html">
-                <img src="../img/channels4_profile.jpg" alt="Logo de Tienda Hola Mundo">
-                </a>
-            <ul>
-                <li>
-                    <a href="../pages/coleccion_nueva.html"> Nueva Coleccion
-                    </a>
+        <nav class="navbar navbar-expand-lg sticky-top menu">
+            <section class="container-fluid">
+                <a href="../index.html">
+                <img src="../img/MH-HM-Logo-01.webp" alt="Logo de Tienda Hola Mundo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Img b. ham -->
+            <img src="../img/png--button-menu-options-blue-angle-rectangle-thumbnail.png">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li><a href="../pages/coleccion_nueva.html"> Nueva Coleccion</a>
                 </li>
-                <li>
-                    <a href="../pages/promos.html"> Promos
-                </a>
-                    </li>
-                <li>
-                    <a href="../pages/nosotros.html"> Nosotros
-                    </a>
+                <li><a href="../pages/promos.html"> Promos</a>
                 </li>
-                <li>
-                    <a href="../pages/contacto.html"> Contacto
-                    </a>
+                <li><a href="../pages/nosotros.html"> Nosotros</a>
                 </li>
-            </ul>
-        </nav>
-        <!-- ends nav -->
-        <main>
-            <section>
-                    <h1>Nueva coleccion</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi veniam ex non, deserunt impedit eius quibusdam aspernatur labore necessitatibus aliquid soluta, eveniet accusamus? Porro doloremque error voluptatum, eligendi officiis atque!</p>
-                <header hidden>barra con animacion y nombre de la tienda</header>
-                    <h2>Lleva lo que tu acititud necesita</h2>
-                    <!--aca irain los productos clase 5-->
-                    <div class="productos">
-                        <img src="../img/music-cote-e30ac6020b0ccbbbab16994899986366-640-0.jpg "alt="Camisa de Music">
-                        <p>Camisa Music</p>
-                    </div>
-                    <div class="productos">
-                        <img src="../img/boni-costado-b8e42af6d08311f5b017017376101267-640-0.jpg" alt="Remera Lovers of Magic">
-                        <p>Remera Lovers of Magic</p>
-                    </div>
+                <li><a href="../pages/contacto.html"> Contactos</a>
+                </li>
+              </ul>
+              <!-- Starts Formualario -->
+              <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <!-- Ends Formualario -->
             </section>
-            <aside>
-                    <ul>Consultas en linea</ul>
-                    <ul>Nuestros Locales</ul>
-                    <ul>Redes</ul>
-            </aside>
-        </main>
-            <footer>
+          </nav>
+          <!-- ends nav -->
+
+          <main class="shop">
+            <div class="actions">
+                <form action="">
+                    <input type="text" placeholder="buscar">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </button>
+                    <!-- ends btn search -->
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg>
+                    </button>
+                    <!-- ends btn cart -->
+                </form>
+            </div>
+            <!-- ends actions -->
+            <section class="filters">
+                <form>
+                    <select name="categorias">
+                        <option>Categorias</option>
+                        <option value="velas">Velas</option>
+                        <option value="sales">Sales</option>
+                        <option value="aromas">Aromas</option>
+                    </select>
+                    <span><b>AROMAS</b></span>
+                    <ul>
+                        <li>
+                            <a href="#">ACQUA (7)</a>
+                        </li>
+                        <li>
+                            <a href="#">CITRUS (10)</a>
+                        </li>
+                        <li>
+                            <a href="#">FLOR DE AZAHAR (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">GARDENIA (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">HIGO DE ORIENTE (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">LAVANDA MENTA (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">MAGNOLIA Y VAINILLA (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">MANGO MARACUYA (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">NECTARINE (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">SANDIA Y PEPINO (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">TILO Y BAMBOO (1)</a>
+                        </li>
+                        <li>
+                            <a href="#">VAINILLA (1)</a>
+                        </li>
+                    </ul>
+                    <span><b>TAMAÑO</b></span>
                     <div>
-                        <a href="https://facebook.com" target="_blank">
-                        <img src="../img/gratis-png-facebook-thumbnail.png">
-                        </a>
+                        <label for="mediano">MD</label>
+                        <input type="checkbox" id="mediano">
                     </div>
                     <div>
-                        <a href="https://instagram.com" target="_blank">
-                        <img src="../img/947fd-logo-instagram-bonito-png.png.webp">
-                        </a>
+                        <label for="grande">LG</label>
+                        <input type="checkbox" id="grande">
                     </div>
-                    <ul class="text-bold">Politica de privacidad</ul>
-                    <ul class="text-bold">Politica de devolucion</ul>
-                    <ul class="text-bold">Politica de cambios</ul>
-            </footer>
-            <!--JS BS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                </form>
+            </section>
+            <!-- ends filters -->
+            <section class="carou">
+                <div id="carouselStore" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-item active c-item">
+                          <div class="carousel-inner">
+                        <img src="../img/prod1.jpg c-img"alt="...">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="../img/prod2.jpg c-img" alt="...">
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="../img/prod3.jpg c-img"alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+              <header hidden>barra con animacion y nombre de la tienda</header>
+          </section>
+          </main>
+        <footer>
+            <figure class="footer-col">
+              <h4>Tienda Hola Mundo</h4>
+                <ul>
+                  <li><a href="#">Nosotros</a></li>
+                  <li><a href="#">Nuestros Servicios</a></li>
+                  <li><a href="#">Registrate</a></li>
+                  <li><a href="#">Politica de Privacidad</a></li>
+                </ul>
+            </figure>
+            <figure class="footer-col">
+                    <h4>Ayuda</h4>
+                    <ul>
+                      <li><a href="#">Preguntas Frecuentes</a></li>
+                      <li><a href="#">Envios</a></li>
+                      <li><a href="#">Compras</a></li>
+                      <li><a href="#">Consultas en Linea</a></li>
+                      <li><a href="#">Contacto</a></li>
+                    </ul>
+                </figure>
+                <figure class="footer-col">
+                    <h4>Fresh</h4>
+                    <ul>
+                      <li><a href="#">Lo Mas Vendido</a></li>
+                      <li><a href="#">Sale</a></li>
+                      <li><a href="#">Nueva Temporada</a></li>
+                      <li><a href="#">Tablas</a></li>
+                    </ul>
+                </figure>
+                <figure class="footer-col">
+                <h4>Seguinos</h4>
+                    <ul>
+                      <li><a href="https://facebook.com" target="_blank">
+                        <img src="../img/gratis-png-facebook-thumbnail.png" alt="seguinos en facebook"></a></li>
+                      <li><a href="https://instagram.com" target="_blank">
+                        <img src="../img/947fd-logo-instagram-bonito-png.png.webp" alt="seguinos en instagram"></li>
+                    </ul>
+                </figure>
+        </footer>
+        <!--JS BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
