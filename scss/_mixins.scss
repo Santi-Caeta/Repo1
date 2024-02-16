@@ -21,11 +21,3 @@ $fuentes:(
     align-items: $align;
     flex-wrap: $wrap;
 }
-.box-home{
-    @include flex(row,center,flex-end,nowrap);
-    background-color: rgb(86, 240, 212);
-}
-.box-col{
-    @include flex(column,flex-start,center,wrap);
-    background-color: rgb(86, 240, 212);
-}
