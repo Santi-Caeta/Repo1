@@ -1,5 +1,19 @@
 .container-c{
-    background-image: url(../img/fond.jpg);
+    background-image: url(../img/fond.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.cal{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+img{
+    height: 80vh;
+    width: 100%;
+    }
 }

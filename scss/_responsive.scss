@@ -1,12 +1,63 @@
-@media (width <= 992px){
+@media (width <=992px) {
+
     /* index */
-.productos-destacados figure.productos{
-    width: 44%;
+    .productos-destacados figure.productos {
+        width: 44%;
     }
 }
 
-@media (width < 768px){
-    .productos-destacados figure.productos{
+@media (width < 768px) {
+    .productos-destacados figure.productos {
         width: 100%;
-        }
     }
+}
+
+.animacion {
+    writing-mode: rl;
+    animation: desplazamiento 15s ease-out infinite alternate;
+}
+
+@keyframes desplazamiento {
+    from {
+        transform: translateX(-100%)
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.dis {
+    background-color: $black;
+    height: 3vh;
+
+    p {
+        color: $white;
+    }
+}
+
+@keyframes apear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.apear {
+    animation: apear;
+    animation-duration: 7s;
+}
+
+.con{
+    height: 6vh;
+
+    p{
+        color: rgb(121, 239, 174);
+        opacity: 0,5;
+        text-transform: uppercase;
+        font-size: larger;
+    }
+}
